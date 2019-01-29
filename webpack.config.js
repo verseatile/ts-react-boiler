@@ -23,11 +23,11 @@ const config = {
   },
   module: {
     rules: [
-      // {
-      //   use: 'babel-loader',
-      //   test: /\.(js|jsx)$/,
-      //   include: [path.resolve(__dirname + '/src')]
-      // },
+      {
+        use: 'babel-loader',
+        test: /\.(js|jsx)$/,
+        include: [path.resolve(__dirname + '/src')]
+      },
 	  {
         test: /\.(.ts|tsx)?$/,
         use: 'ts-loader',
