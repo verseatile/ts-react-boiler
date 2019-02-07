@@ -7,3 +7,5 @@ ReactDOM.render(
     <App compiler="TypeScript" framework="React" />,
     document.getElementById("render-target")
 );
+
+document.body.style.margin = "0"
